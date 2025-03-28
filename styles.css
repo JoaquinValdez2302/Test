@@ -1,4 +1,4 @@
-img {
+video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,3 +9,19 @@ img {
     transform: translate(-50%, -50%);
     z-index: -1;
 }
+.overlay-text {
+    position: absolute;
+    top: 20%; /* Centra verticalmente */
+    left: 10%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar */
+    color: black; /* Color del texto */
+    font-size: 50px; /* Tamaño del texto */
+    }
+    .overlay-text2 {
+        position: absolute;
+        top: 20%; /* Centra verticalmente */
+        right: 10%; /* Centra horizontalmente */
+        transform: translate(-50%, -50%); /* Ajusta la posición para centrar */
+        color: black; /* Color del texto */
+        font-size: 50px; /* Tamaño del texto */
+        }
